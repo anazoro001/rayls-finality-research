@@ -32,7 +32,7 @@ In other words, consensus ordering and transaction execution are distinct parts 
 
 ![Rayls Axyl architecture](evidence/axyl-architecture.png)
 
-*Replace this path with the exact filename of your architecture screenshot.*
+
 
 This architecture is documented in the [Axyl technical overview](https://docs.rayls.com/docs/meet-axyl-the-consensus-behind-rayls).
 
@@ -72,7 +72,7 @@ The recorded results were as follows.
 
 ![RPC finality comparison results](evidence/rpc-finality-comparison.png)
 
-*Replace this path with your actual comparison screenshot, if available.*
+
 
 These are results from my exploratory test, not universal performance benchmarks.
 
@@ -100,7 +100,7 @@ The explorer showed an entry labelled **"Reorged block #830073."**
 
 ![Rayls Explorer forked-block entry](evidence/reorged-block-explorer.png)
 
-*Replace this path with your actual explorer screenshot.*
+
 
 I then compared the block information available from the RPC endpoint. My notes recorded a different block hash at height 830073:
 
@@ -111,7 +111,7 @@ The recorded block fields included the same parent hash, timestamp, miner, nonce
 
 ![Comparison of block 830073 records](evidence/block-830073-comparison.png)
 
-*Replace this path with your actual block-comparison screenshot.*
+
 
 These observations raised a question: what explains the difference between the explorer's forked entry and the block returned by an RPC endpoint?
 
